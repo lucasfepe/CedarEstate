@@ -6,11 +6,11 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Cedar Estate - Coming Soon',
+      title: 'Cedars Estate - Coming Soon',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Cedar Estate - Luxury Living Coming Soon' }
+        { name: 'description', content: 'Cedars Estate - Luxury Living Coming Soon' }
       ],
       link: [
         // Primary font for headings - elegant serif

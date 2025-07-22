@@ -4,12 +4,12 @@
     <div class="overlay"></div>
     <img 
       :src="placeholderImage" 
-      alt="Cedar Estate" 
+      alt="Cedars Estate" 
       class="background-image"
       @load="imageLoaded = true"
     >
     <div class="content" :class="{ 'fade-in': imageLoaded }">
-      <h1 class="title">Cedar Estate</h1>
+      <h1 class="title">Cedars Estate</h1>
       <p class="subtitle">Coming Soon</p>
       <div class="contact-info">
         <p class="contact-item">

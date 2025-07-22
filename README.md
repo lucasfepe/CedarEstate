@@ -1,6 +1,6 @@
-# Cedar Estate - Coming Soon Landing Page
+# Cedars Estate - Coming Soon Landing Page
 
-A modern, elegant landing page for Cedar Estate built with Nuxt 3, Vue.js, and TypeScript. Features a full-screen hero image with sophisticated typography and bot-protected contact information.
+A modern, elegant landing page for Cedars Estate built with Nuxt 3, Vue.js, and TypeScript. Features a full-screen hero image with sophisticated typography and bot-protected contact information.
 
 ---
 
