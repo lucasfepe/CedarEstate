@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import bannerImage from '~/assets/images/Banner.jpg';
 
 const { revealEmail, revealPhone, getObfuscatedEmail, getObfuscatedPhone } = useContact();
@@ -49,8 +49,15 @@ const displayPhone = ref(getObfuscatedPhone());
 const emailHint = ref('Click to reveal email address');
 const phoneHint = ref('Click to reveal phone number');
 
-// Using Unsplash for placeholder image
 const placeholderImage = bannerImage;
+
+// Check if image is already loaded on mount
+onMounted(() => {
+  const img = document.querySelector('.background-image') as HTMLImageElement;
+  if (img && img.complete) {
+    imageLoaded.value = true;
+  }
+});
 
 const handleEmailClick = (event: MouseEvent) => {
   revealEmail(event);
