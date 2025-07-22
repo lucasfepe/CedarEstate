@@ -18,7 +18,7 @@ export const useContact = () => {
     };
 
     // Encoded contact info
-    const encodedEmail = 'Nyrknaqen.Wnen@hahuе.pbz'; // Alexandra.Jara@unuhr.com (ROT13 encoded)
+    const encodedEmail = 'gurprqnefrfgngr@tznvy.pbz'; // thecedarsestate@gmail.com (ROT13 encoded)
     const encodedPhone = '961-349-5776'; // 416-894-0221 (number shifted by 5)
 
     const decodeEmail = (): string => {
