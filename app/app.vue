@@ -13,7 +13,7 @@
       <p class="subtitle">Coming Soon</p>
       <div class="contact-info">
         <p class="contact-item">
-          <span class="contact-label">Email:</span>
+          <span class="contact-label">Email: </span>
           <span 
             class="contact-value clickable" 
             @click="handleEmailClick"
@@ -23,7 +23,7 @@
           </span>
         </p>
         <p class="contact-item">
-          <span class="contact-label">Phone:</span>
+          <span class="contact-label">Phone: </span>
           <span 
             class="contact-value clickable" 
             @click="handlePhoneClick"
